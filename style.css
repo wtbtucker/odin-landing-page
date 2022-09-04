@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto', 'Helvetica', san-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 16px;
+}
+
+h1 {
+    margin-right: auto;
+}
+
+.one, .footer {
+    color: #F9FAF8;
+    background-color: #1F2937;
+}
+
+a {
+    text-decoration: none;
+    color: #F9FAF8;
+}
