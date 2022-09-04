@@ -9,7 +9,6 @@ body {
     justify-content: flex-end;
     align-items: center;
     gap: 16px;
-    padding: 16px;
     margin-bottom: 32px;
 }
 
@@ -20,7 +19,11 @@ h1 {
 .one, .footer {
     color: #F9FAF8;
     background-color: #1F2937;
-    padding: 8px 32px;
+    padding: 8px 60px;
+}
+
+.footer {
+    text-align: center;
 }
 
 a {
@@ -32,11 +35,12 @@ a {
 
 .one-footer {
     display: flex;
+    gap: 16px;
 }
 
 .hero-main {
     font-size: 48px;
-    font-weight: 900;
+    font-weight: bolder;
 }
 
 .hero-secondary {
@@ -44,8 +48,13 @@ a {
     color: #E5E7EB
 }  
 
-img {
+.image {
     width: 800px;
+    height: auto;
+}
+
+img {
+    width: 200px;
     height: auto;
 }
 
@@ -58,4 +67,22 @@ button {
     text-decoration: none;
     font-size: 18px;
     padding: 16px 32px;
+}
+
+.two {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.two-header {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.two-container {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
 }
