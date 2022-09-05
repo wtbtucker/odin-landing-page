@@ -2,6 +2,7 @@ body {
     display: flex;
     flex-direction: column;
     font-family: 'Roboto', 'Helvetica', san-serif;
+    margin: 0px;
 }
 
 .header {
@@ -14,6 +15,7 @@ body {
 
 h1 {
     margin-right: auto;
+    font-size: 24px;
 }
 
 .one, .footer {
@@ -51,11 +53,15 @@ a {
 .image {
     width: 800px;
     height: auto;
+    border-radius: 0px;
 }
 
 img {
     width: 200px;
     height: auto;
+    border-radius: 8px;
+    border: 2px;
+    border-color: #3882F6;
 }
 
 button {
@@ -85,4 +91,54 @@ button {
     display: flex;
     justify-content: center;
     gap: 32px;
+    margin-bottom: 32px;
+}
+
+.three {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    padding: 8px 72px;
+}
+
+.quote {
+    font-style: italic;
+    font-size: 36px;
+    align-self: flex-start;
+}
+
+.quote-author {
+    font-size: 24px;
+    font-weight: bold;
+    align-self: flex-end;
+}
+
+.four {
+    display: flex;
+    margin: 60px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    justify-content: space-between;
+    padding: 16px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text-one {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0px;
+}
+
+.text-two {
+    margin: 0px;
+}
+
+.button-two {
+    border: 2px solid #F9FAF8;
 }
